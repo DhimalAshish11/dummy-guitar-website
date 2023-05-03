@@ -68,6 +68,7 @@ nav a:hover {
   cursor: pointer;
   /* transform: scale(0.8); */
 }
+
 .hero {
   height: 80vh;
   background-image: url(g1.jpg);
@@ -418,4 +419,13 @@ input {
 
 a {
   color: blue;
+}
+label::after {
+  content: "*";
+  color: red;
+}
+.guitar-img {
+  width: 80%;
+  height: 400px;
+  background-color: aqua;
 }
